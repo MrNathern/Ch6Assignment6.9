@@ -1,0 +1,6 @@
+    System.out.println("Feet    Meters    |    Meters    Feet");
+for(double f = 1.0, m = 20.0; f <= 10; f++, m += 5) {
+		double f2m = footToMeter(f);
+		double m2f = meterToFoot(m);
+		System.out.printf("%-8.1f%-10.3f|%8.1f%12.3f\n", f, f2m, m, m2f);
+}
